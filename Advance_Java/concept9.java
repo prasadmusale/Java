@@ -8,6 +8,8 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.TreeSet;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.HashMap;
 
 public class concept9 {
 
@@ -65,6 +67,26 @@ public class concept9 {
         while (values.hasNext()) {
             System.out.print(values.next() + " ");
 
+        }
+
+        // We have to define Wrapper classes while defining Map class .
+        Map<String, Integer> num4 = new HashMap<>();
+
+        // will insert all values in map
+        num4.put("Prasad", 90);
+        num4.put("Sakshi", 80);
+        num4.put("Sagar", 70);
+        num4.put("Pooja", 88);
+
+        // will print whole map
+        System.out.println(num4);
+
+        // Keyset stores keys in set
+        Set<String> keys = num4.keySet();
+
+        // get will give all values of particular key
+        for (String i : keys) {
+            System.out.println(i + " : " + num4.get(i));
         }
 
     }
