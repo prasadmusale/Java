@@ -1,0 +1,22 @@
+<!--&lt;!&ndash;This is bean configuration definition in xml which has to define , copied from documentation&ndash;&gt;-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="-->
+<!--        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+
+<!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+<!--    <bean id="alien" class="org.example.Alien">-->
+<!--&lt;!&ndash;        property tag is used to assign value to variables in spring&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="age" value="23"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="lap" ref="lap1"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        constructor-arg is used to assign default values using constructor&ndash;&gt;-->
+<!--        <constructor-arg name="age" index="0" value="23"/>-->
+<!--        <constructor-arg name="salary" index="1" value="100000"/>-->
+<!--        <constructor-arg name="lap" index="2" ref="lap1"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="lap1" class="org.example.Laptop">-->
+<!--    </bean>-->
+
+<!--</beans>-->
+
